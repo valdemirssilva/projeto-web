@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap</title>
+
+	<!--LINK PARA CSS-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<style type="text/css">
+	.card img{
+		border-radius: 5px 5px 0px 0px !important;
+	}
+</style>
+
+
+</head>
+<body>
+
+<div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-dark p-4">
+    <h5 class="text-white h4">Collapsed content</h5>
+    <span class="text-muted">Toggleable via the navbar brand.</span>
+  </div>
+</div>
+
+<nav class="navbar navbar-dark bg-dark">
+  
+
+  <div class="container">
+
+  		<!--COMPONENTS > NavBar-->
+				<div class="d-flex justify-content-start">
+				<img src="camera.svg" wi class="navbar-brand" width="50px" height="50px" alt="...">
+  	    <a class="navbar-brand" href="#">Álbum</a>
+				</div>
+
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+
+	<div class="mx-auto py-5 my-5" style="width: 500px;">
+	  <h1 class="display-6 text-center">Aula de Bootstrap</h1>
+	  
+	  <p class="lead text-muted text-center">Se voce usa este site regularmente e gostaria de ajudar a mantê-lo ativo na internet, por favor considere a possibilidade de fazer uma pequena doação para ajudar a pagar os custos de hospedagem e consumo de banda.</p>
+
+	  <div class="d-flex justify-content-center">
+		<button type="button" class="btn btn-primary m-1">Botão 1</button>
+		<button type="button" class="btn btn-secondary m-1">Botão 2</button>
+	  </div>
+
+	</div>
+
+
+<div class="p-3 mb-2 bg-light text-dark"> <!--coloca o background atrás dos cartões-->
+	 
+	 <div class="container"><!--Posicionar os cartões na página-->
+	 	
+	 
+
+<!--CRIAR OS CARTÕES-->
+
+<div class="card-group">
+  <div class="card ms-3 shadow p-3 rounded">
+    <img src="https://blog.nakata.com.br/wp-content/uploads/2020/08/post_thumbnail-1f77e8996174df4fb19587977331de22-780x450.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      
+    <div class="d-flex justify-content-between"> 
+      <div>
+		<button type="button" class="btn btn-outline-secondary">View</button>
+		<button type="button" class="btn btn-outline-secondary">Edit</button>
+	  </div>
+      <p class="card-text"><small class="text-muted">9 mins</small></p>
+   </div>
+
+
+    </div>
+  </div>
+ 
+  
+  <div class="card ms-3 shadow p-3 rounded">
+    <img src="https://blog.nakata.com.br/wp-content/uploads/2020/08/post_thumbnail-1f77e8996174df4fb19587977331de22-780x450.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+
+     <div class="d-flex justify-content-between"> 
+      <div>
+		<button type="button" class="btn btn-outline-secondary">View</button>
+		<button type="button" class="btn btn-outline-secondary">Edit</button>
+	  </div>
+      <p class="card-text"><small class="text-muted">9 mins</small></p>
+   </div>
+      
+
+    </div>
+  </div>
+  
+
+  <div class="card ms-3 shadow p-3 rounded">
+    <img src="https://blog.nakata.com.br/wp-content/uploads/2020/08/post_thumbnail-1f77e8996174df4fb19587977331de22-780x450.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+
+      <div class="d-flex justify-content-between"> 
+      <div>
+		<button type="button" class="btn btn-outline-secondary">View</button>
+		<button type="button" class="btn btn-outline-secondary">Edit</button>
+	  </div>
+      <p class="card-text"><small class="text-muted">9 mins</small></p>
+   </div>
+    </div>
+  </div>
+	</div>
+</div>
+
+
+
+<!--CRIAR O RODAPÉ--> 
+<footer class="py-5">
+	<div class="container">
+		<div class="d-flex justify-content-between">
+			
+			<p class="text-start text-muted">Start aligned text on all viewport sizes.</p>
+
+			<button type="button" class="btn btn-link">Link</button>
+
+		</div>
+
+	</div>
+
+	</div>
+	
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<!--LINK JS EXECUTAR BOOTSTRAP-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
